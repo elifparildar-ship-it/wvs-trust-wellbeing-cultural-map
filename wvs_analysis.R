@@ -1,24 +1,10 @@
-packages <- c(
-  "tidyverse", # data wrangling and plotting
-  "rnaturalearth", # world map geometries
-  "rnaturalearthdata",
-  "sf", # spatial (GIS) data handling
-  "leaflet", # interactive maps
-  "plotly", # interactive plots
-  "countrycode", # country code conversions
-  "igraph", # network analysis
-  "visNetwork", # interactive network visualization
-  "janitor" # small data-cleaning helpers
-)
-# Install missing packages (if any)
-missing <- setdiff(packages, rownames(installed.packages()))
-if (length(missing) > 0) {
-  install.packages(missing, dependencies = TRUE)
-}
+# World Values Survey (Wave 7)
+# Country-level analysis: trust, wellbeing, and cultural values
+# Raw survey data not publicly shared
 
-invisible(lapply(packages, library, character.only = TRUE))
-
-wvs <- read_csv("/Users/elifparildar/Downloads/WVS_Cross-National_Wave_7_csv_v6_0.csv")
+# Raw WVS data file not included in this public repository.
+# Please download the WVS Wave 7 data from the official website.
+# wvs <- read_csv("WVS_Cross-National_Wave_7.csv")
 
 glimpse(wvs)
 dim(wvs)
