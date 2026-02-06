@@ -1,0 +1,9 @@
+*.csv
+*.xlsx
+*.sav
+*.dta
+*.rds
+*.png
+*.pdf
+data/
+outputs/
