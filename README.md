@@ -24,3 +24,8 @@ Raw survey data are not included in this repository. Only aggregated results and
 
 ## Key Findings (Summary)
 - Trust in gover
+
+### Course Context
+This project was developed as part of the *Computational Social Science* course (IR421).  
+The analysis builds on course materials and methodological guidance provided during the course, and was independently re-implemented, adapted, and extended by the author to explore mobility patterns using real-world data.
+
